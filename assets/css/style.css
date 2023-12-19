@@ -1,12 +1,67 @@
-footer {
-  position: absolute;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: #f5f5f5;
-  margin-top: 50px;
+/* Add your custom styles here */
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #f8f9fa; /* Light gray background color */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #343a40; /* Dark text color */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+/* Hero Section Styles */
+#hero {
+  background-color: #007bff; /* Hero section background color */
+  color: #ffffff; /* Light text color */
+  padding: 4rem 0;
+}
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+}
+
+/* Work Section Styles */
+#work {
+  background-color: #f8f9fa; /* Light gray background color */
+  padding: 4rem 0;
 }
 
 .card {
-
+  border: 1px solid #dee2e6; /* Card border color */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth box shadow transition */
 }
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow on hover */
+}
+
+/* Skills Section Styles */
+#skills {
+  padding: 4rem 0;
+}
+
+/* About/Contact Section Styles */
+#about {
+  padding: 4rem 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40; /* Dark background color */
+  color: #ffffff; /* Light text color */
+  padding: 1rem 0;
+}
+
