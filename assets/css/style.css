@@ -49,8 +49,25 @@
 }
 
 /* Skills Section Styles */
+/* Skills Section Styles */
 #skills {
   padding: 4rem 0;
+  text-align: center;
+}
+
+#skills img {
+  max-width: 100%;
+  height: auto;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  display: inline-block;
+  margin: 10px;
 }
 
 /* About/Contact Section Styles */
